@@ -7,6 +7,11 @@
     <link rel="icon" href="./assets/photo/WhatsApp Image 2025-04-11 at 3.36.36 PM.jpeg">
 </head>
 <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0px;
+
+      }
     #top button {
         color: white;
         margin: 20px;
@@ -25,24 +30,124 @@
         border-radius: 7px;
         padding: 10px 20px;
       }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        padding: 10px;
+        
+      }
+      
+      .navbar button {
+        background-color: #E56717;
+        color: white;
+        border: none;
+        border-radius: 7px;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        
+      }
+      .navbar button:hover {
+        background-color: white;
+        color:#E56717;
+        border: 1px solid #E56717;
+      }
+      .navbar a {
+        text-decoration: none;
+        color: #fff;
+        margin: 5px;
+        
+      }
+      .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      #contact-form {
+        border: #E56717 solid 2px;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        justify-content:space-around;
+        flex-direction: column;
+        width: 300px;
+        margin: 0;
+        margin-left: 50px;
+        row-gap: 10px;
+      }
+        #contact-form label {
+            margin-bottom: 10px;
+            margin-top: 10px;
+            font-size: 18px;
+            color: #E56717;
+            font-family: calibri;
+        }
+        #contact-form input{
+            margin-bottom: 0px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            
+        }
+        #sub {
+            background-color: #E56717;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 10px 0px;
+        }
+        #sub:hover {
+            background-color: white;
+            color: #E56717;
+            border: 1px solid #E56717;
+        }
+        #res {
+            background-color:#cd853f;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 10px 0px;
+        }
+        #res:hover {
+            background-color: white;
+            color: #cd853f;
+            border: 1px solid #cd853f;
+        }
 </style>
 <body>
-    <br><br><br>
-    <pre><h1 style="color: darkgreen;">     CONTACT US                                                  <a style="text-decoration: none;" href="./index.html">HOME</a>  <a style="text-decoration: none;" href="./index.html#about">ABOUT</a>  <a style="text-decoration: none;" href="./index.html#menu">MENU</a>   <a style="text-decoration: none;" href="./store hours.html">STORES HOURS</a></h1></pre>
+    <div class="navbar">
+        <div class="nav1"><h1 style="color: #E56717; text-align: left;">CONTACT US  </div>
+        <div class="nav">
+          <a  style="text-decoration: none;" href="./index.html"><button>HOME</button></a> 
+          <a  style="text-decoration: none;" href="./index.html#about"><button>ABOUT</button></a>
+          <a  style="text-decoration: none;" href="./index.html#menu"><button>MENU</button></a>
+          <a style="text-decoration: none;" href="./store hours.html"><button>STORES HOURS</button></a>
+        </div>
+    </div>  
+    </div>
     <img src="./assets/photo/food" alt="" width="370" height="200"                                        >
     <pre><h1>     Foods and Drinks</h1></pre>
     <hr>
-    <pre><h1 style="color: darkgreen;">     OUR CONTACT FORM</h1><form action="">
-        <label>Name</label>
-        <input type="text" name="name" placeholder=" Your Name"><br><br>
-        <label>Email</label>
-        <input type="email" name="email" placeholder="Enter mail address" ><br><br>
-        <label for="">Your Message</label><br>
-        <input width="200" height="100" type="text" name="message" placeholder="Your Message"><br><br>
-        <input type="submit" name="send">   <input type="reset" name="reset">
-      </form></pre>
+    <pre><h1 style="color: #E56717;">     OUR CONTACT FORM</h1><form action="">
+    <div  id="contact-form" >
+    <form action="">
+        <label>Name:</label>
+        <input type="text" name="name" placeholder=" Your Name">
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter mail address" >
+        <label for="">Your Message:</label>
+        <input width="200" height="100" type="text" name="message" placeholder="Your Message">
+        <input id="sub" type="submit" name="send">  <input id="res" type="reset" name="reset">
+      </form>
+    </div>       
+    </pre>
     <br>
-    <pre><h1 style="color: darkgreen;">     OUR LOCATION</h1><h1>        Postal Code:- 123-4567
+    <pre><h1 style="color: #E56717;">     OUR LOCATION</h1><h1>        Postal Code:- 123-4567
         Shibuya-ku, Dogenzaka 1-2-3
         Tokyo, Japan
         Contact Number 	045-341-5251</h1></pre>
