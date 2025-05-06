@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    
+  }
+  .section1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/photo/dinning.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+  }
+
+  .nav2 a {
+    
+
+    
+    
+  
+  }
+  .nav2 h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .nav2 a{
+    text-decoration: none;
+    color: #fff;
+    
+    background-color: #E56717;
+    border-radius: 50px;
+  }
+  .nav2 a:hover{
+    color: #E56717;
+    background-color: white;
+    border: 1px solid #E56717;
+    
+  }
+  .nav2 a button{
+    color: #fff;
+    background-color: #E56717;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+  }
+  .nav2 a button:hover{
+    color: #E56717;
+    background-color: white;
+    border-radius: 50px;
+  }
+
+h1, h2 {
+    text-align: center;
+    color: #8B0000;
+  }
+
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff8dc;
+  }
+
+  th, td {
+    border: 1px solid #d2b48c;
+    padding: 10px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #deb887;
+    color: white;
+  }
+
+  tr:hover {
+    background-color: #f0e68c;
+    cursor:pointer;
+  }
+
+  .category {
+    background-color: #cd853f;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+  .nav1{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+  }
+  .nav{
+    text-align: center;
+    display: block;
+    margin-bottom: 40px;
+  }
+  .nav a button {
+    background-color: #E56717;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    
+  }
+  .nav a button:hover {
+    background-color: white;
+    color:#E56717;
+    border: 1px solid #E56717;
+  }
+  .nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 5px;
+    
+  }
+  .nav a:hover {
+    color: #E56717;
+  }
+  
+  
+  
+  #heading1 {
+    color: #E56717;
+    font-size: 30px;
+    
+  }
+  #about {
+    font-size: 20px;
+    color: #E56717;
+    margin: 320px;
+    text-align: left;
+  }
+  p {
+    margin: 20px;
+    justify-content: space-around;
+    text-align:justify;
+    font-size: 16px;
+    
+    
+  }
+  #menu {
+    font-size: 20px;
+    color: #E56717;
+    font-weight: bold;
+    margin: 20px;
+    text-align: left;
+  }
+  #top button {
+    color: white;
+    margin: 20px;
+    background-color: #E56717;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px;
+  }
+  
+  #top button:hover {
+    
+    color: #E56717;
+    background-color: #fff;
+    margin: 20px;
+    border: 1px solid #E56717;
+    border-radius: 7px;
+    padding: 10px 20px;
+  }
+  
