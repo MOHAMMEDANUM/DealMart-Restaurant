@@ -184,6 +184,17 @@ body {
 
   /* Contact Content Starts */
 
+  .contact-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 40px;
+  }
+  .contact-details img{
+    height: 400px;
+
+  }
+  
 
 
   /* Contact Content Ends */
@@ -195,13 +206,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
     margin: 0px 0px;
     /* background-color: #E56717; */
     /* color: white; */
-    padding: 20px 0px;
+    padding: 0px 0px;
   }
-  .footer a button {
-    text-align: left;
+  .footer p{
+    text-align: right;
+    
   }
 
 
@@ -248,20 +261,19 @@ body {
     font-size: 30px;
     
   }
-  p {
+  /* p {
     margin: 20px;
     justify-content: space-around;
     text-align:justify;
     font-size: 16px;
     
-    
-  }
+  } */
   #top button {
     color: white;
     margin: 20px;
     background-color: #E56717;
     border: none;
-    border-radius: 7px;
+    border-radius: 17px;
     padding: 10px 20px;
   }
   
@@ -271,7 +283,7 @@ body {
     background-color: #fff;
     margin: 20px;
     border: 1px solid #E56717;
-    border-radius: 7px;
+    border-radius: 17px;
     padding: 10px 20px;
   }
   
