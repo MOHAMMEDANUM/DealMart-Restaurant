@@ -181,7 +181,37 @@ body {
 
   /* Featured Content Ends */
 
+
+  /* Contact Content Starts */
+
+
+
+  /* Contact Content Ends */
+
+
+  /* Footer Content Starts */
+
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    /* background-color: #E56717; */
+    /* color: white; */
+    padding: 20px 0px;
+  }
+  .footer a button {
+    text-align: left;
+  }
+
+
+  /* Footer Content Ends */
+
+
   
+
+
+
 
    h1, h2 p {
      text-align: center;
