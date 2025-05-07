@@ -160,20 +160,28 @@ body {
 
   /* Featured Content Starts */
 
-  .featured {
+  /* .featured {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px 0px;
     flex-direction: column;
     
+  } */
+
+  .inside-featured{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    /* justify-content: center;
+    align-items: center; */
+    
+    
   }
 
-  .featured-content{
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px; */
-  }
+  /* Featured Content Ends */
+
+  
 
    h1, h2 p {
      text-align: center;
