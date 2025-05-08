@@ -287,3 +287,29 @@ body {
     padding: 10px 20px;
   }
   
+
+
+
+
+
+  /* -------------------------------------------------Reservation Page-------------------------------------------------------- */
+
+  .reservation-section2{
+    max-width: 800px;
+    margin: 50px 40px;
+
+  }
+
+ .reservaiton-form{
+  display: grid;
+  grid-template-columns:auto auto;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+  background-color: #fff8dc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  row-gap: 20px;
+ }
+ 
