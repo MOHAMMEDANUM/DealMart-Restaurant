@@ -173,10 +173,9 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
-    /* justify-content: center;
-    align-items: center; */
-    
-    
+    margin:0px 40px;
+    padding: 0px 50px;
+
   }
 
   /* Featured Content Ends */
@@ -204,18 +203,15 @@ body {
 
   .footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     
-    margin: 0px 0px;
+    margin: 0px 40px;
     /* background-color: #E56717; */
     /* color: white; */
     padding: 0px 0px;
   }
-  .footer p{
-    text-align: right;
-    
-  }
+  
 
 
   /* Footer Content Ends */
@@ -292,7 +288,7 @@ body {
 
 
 
-  /* -------------------------------------------------Reservation Page-------------------------------------------------------- */
+  /* -------------------------------------------------Reservation Page Starts-------------------------------------------------------- */
 
   .reservation-section2{
     max-width: 800px;
@@ -313,3 +309,17 @@ body {
   row-gap: 20px;
  }
  
+
+ /* -------------------------------------------------Reservation Page Ends-------------------------------------------------------- */
+
+ /* -------------------------------------------------Menu Page Starts-------------------------------------------------------- */
+
+ .menu-section1{
+
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* -------------------------------------------------Menu Page Ends-------------------------------------------------------- */
