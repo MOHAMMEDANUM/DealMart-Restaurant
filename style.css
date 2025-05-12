@@ -177,6 +177,13 @@ body {
     padding: 0px 50px;
 
   }
+  .inner-featured-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
 
   /* Featured Content Ends */
 
@@ -185,7 +192,7 @@ body {
 
   .contact-details{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 0px 40px;
   }
@@ -291,23 +298,45 @@ body {
   /* -------------------------------------------------Reservation Page Starts-------------------------------------------------------- */
 
   .reservation-section2{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
     max-width: 800px;
     margin: 50px 40px;
 
+  }
+  .reservaiton-form-outer{
+    display: grid;
+    background-color: #fff8dc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    
   }
 
  .reservaiton-form{
   display: grid;
   grid-template-columns:auto auto;
-  justify-content: center;
-  align-items: center;
   margin: 50px 0px;
-  background-color: #fff8dc;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   row-gap: 20px;
  }
+  .reservaiton-form-outer button{
+    background-color: #E56717;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px;
+  
+  } 
+  .reservaiton-form button:hover {
+    background-color: white;
+    color:#E56717;
+    border: 1px solid #E56717;
+  }
+  
  
 
  /* -------------------------------------------------Reservation Page Ends-------------------------------------------------------- */
