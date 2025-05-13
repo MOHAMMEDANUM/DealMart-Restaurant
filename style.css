@@ -212,11 +212,10 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
-    margin: 0px 40px;
-    /* background-color: #E56717; */
-    /* color: white; */
-    padding: 0px 0px;
+    margin: 0px ;
+    background-color: rgb(17, 24, 39);
+    color: white; 
+    border: 0;
   }
   
 
@@ -635,3 +634,43 @@ justify-content: center;
 
 
 /* -------------------------------------------------Events Page Ends-------------------------------------------------------- */
+
+
+/* -------------------------------------------------Contact Page Starts-------------------------------------------------------- */
+
+
+.contact-form{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items:center ;
+}
+
+.contact-details-1{
+  display: grid;
+  margin: 0;
+  height: 45%;
+  width: 70%;
+}
+
+.contact-details-1 div{
+  height: 0px;
+}
+
+.contact-details-1 form{
+  display: grid;
+  gap: 20px;
+  
+}
+
+
+
+.contact-details-2{
+  display: grid;
+}
+
+.dept{
+  padding: 0 0 0 20px;
+}
+
+
+/* -------------------------------------------------Contact Page Ends-------------------------------------------------------- */
