@@ -555,22 +555,31 @@ body {
 /* -------------------------------------------------Events Page Starts-------------------------------------------------------- */
 
 
-.all-events{
-  display: flex;
-  justify-content: space-evenly;
+
+
+
+.all-events-main{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
   margin-bottom: 40px;
   margin-top: 40px;
+  justify-items: center;
+  row-gap: 40px;
   
   
+ 
   
 }
 
 .inside-events{
-  width: 20%;
+  width: 60%;
   display: grid;
+  grid-template-columns: auto;
   background-color: whitesmoke;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
   
   
 }
@@ -580,4 +589,49 @@ body {
   border-radius: 10px 10px 0 0;
   
 }
+.key-features{
+  display: grid;
+  grid-template-columns: auto auto;
+  max-width: 100%;
+}
+
+#book{
+display: flex;
+justify-content: center;
+}
+
+.book button{
+  margin: 20px;
+  background-color: #E56717;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  
+}
+.book button:hover {
+  margin: 20px;
+  background-color: white;
+  color:#E56717;
+  border: 1px solid #E56717;
+}
+
+.event-plan{
+  display: grid;
+  grid-template-columns: auto;
+  margin: 40px 0;
+  
+  
+}
+.event-plan-inner{
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  
+}
+
+
+
 /* -------------------------------------------------Events Page Ends-------------------------------------------------------- */
