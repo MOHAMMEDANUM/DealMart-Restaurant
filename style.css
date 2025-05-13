@@ -11,16 +11,26 @@ body {
 
  /* Header Content Starts */
 
+ .navigation{
+  background-color: rgb(17, 24, 39);
+  margin: 0px;
+  padding: 40px 0;
+ }
+
+ .navigation h1{
+  margin: 0;
+ }
+
 .nav1{
   text-align: center;
   margin-bottom: 40px;
-  margin-top: 40px;
+  
 
 }
 .nav{
   text-align: center;
   display: block;
-  margin-bottom: 40px;
+  
 }
 .nav a button {
   background-color: #E56717;
@@ -320,8 +330,8 @@ body {
     display: flex;  
     justify-content: center;
     align-items: center;
-    max-width: 800px;
-    margin: 50px 40px;
+    
+    
 
   }
   .reservaiton-form-outer{
@@ -329,25 +339,29 @@ body {
     background-color: #fff8dc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
+    width: 100%;
+    padding: 0px 20px;
     
   }
 
  .reservaiton-form{
   display: grid;
   grid-template-columns:auto auto;
-  margin: 50px 0px;
-  padding: 20px;
+  margin: 40px 0px 0 0;
+  padding: 20px 0;
   row-gap: 20px;
+  width: 100%;
  }
   .reservaiton-form-outer button{
-    background-color: #E56717;
+  background-color: #E56717;
   color: white;
   border: none;
   border-radius: 7px;
   padding: 10px 20px;
   cursor: pointer;
   font-size: 16px;
-  margin: 20px;
+  margin: 20px 0;
+  width: 100%;
   
   } 
   .reservaiton-form button:hover {
@@ -355,7 +369,18 @@ body {
     color:#E56717;
     border: 1px solid #E56717;
   }
+
+
+  .sp-req{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+  }
   
+  .confirm-res{
+    display: flex;
+    justify-content: center;
+  }
  
 
  /* -------------------------------------------------Reservation Page Ends-------------------------------------------------------- */
