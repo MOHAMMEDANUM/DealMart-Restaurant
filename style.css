@@ -327,20 +327,27 @@ body {
   /* -------------------------------------------------Reservation Page Starts-------------------------------------------------------- */
 
   .reservation-section2{
-    display: flex;  
+    /* display: flex;  
     justify-content: center;
-    align-items: center;
-    
-    
+    align-items: center; */
 
-  }
-  .reservaiton-form-outer{
     display: grid;
     background-color: #fff8dc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     width: 100%;
     padding: 0px 20px;
+    
+    
+
+  }
+  .reservaiton-form-outer{
+    /* display: grid;
+    background-color: #fff8dc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 100%;
+    padding: 0px 20px; */
     
   }
 
@@ -574,6 +581,7 @@ body {
   grid-template-columns: auto auto auto auto;
   row-gap: 40px;
   gap: 40px;
+  margin-bottom: 40px;
 }
 
 .event-images-inner div{
