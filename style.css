@@ -240,15 +240,35 @@ body {
 
   .footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin: 0px ;
     background-color: rgb(17, 24, 39);
     color: white; 
     border: 0;
+    padding: 20px 0;
   }
   
-
+ #top button {
+    color: white;
+    margin: 20px 0 0 20px;
+    background-color: #E56717;
+    border: none;
+    border-radius: 17px;
+    padding: 10px 20px;
+    position: fixed;
+    top: 650px;
+  }
+  
+  #top button:hover {
+    
+    color: #E56717;
+    background-color: #fff;
+    margin: 20px;
+    border: 1px solid #E56717;
+    border-radius: 17px;
+    padding: 10px 20px;
+  }
 
   /* Footer Content Ends */
 
@@ -300,24 +320,7 @@ body {
     font-size: 16px;
     
   } */
-  #top button {
-    color: white;
-    margin: 20px;
-    background-color: #E56717;
-    border: none;
-    border-radius: 17px;
-    padding: 10px 20px;
-  }
-  
-  #top button:hover {
-    
-    color: #E56717;
-    background-color: #fff;
-    margin: 20px;
-    border: 1px solid #E56717;
-    border-radius: 17px;
-    padding: 10px 20px;
-  }
+ 
   
 
 
