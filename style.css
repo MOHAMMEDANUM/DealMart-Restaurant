@@ -515,7 +515,6 @@ body {
 
 .inner-catering-services h1{
   text-align: center;
-
 }
 
 .all-events{
@@ -712,6 +711,7 @@ justify-content: center;
   display: grid;
   grid-template-columns: auto auto;
   justify-items:center ;
+  margin: 20px 80px;
 }
 
 .contact-details-1{
