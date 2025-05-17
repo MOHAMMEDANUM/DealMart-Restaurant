@@ -550,16 +550,17 @@ body {
 
 .gallery-section{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: column;
   
 }
 .gallery{
   display: grid;
   grid-template-columns:auto auto auto auto auto auto auto;
-  gap: 90px;
-  margin: 40px;
-  padding: 0px 50px;
+  margin: 40px  auto;
+  
+  padding: 0px 0px;
+  gap: 50px;
   
 }
 .gallery button{
@@ -587,7 +588,7 @@ body {
 
 .event-images-inner{
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   row-gap: 40px;
   gap: 40px;
   margin-bottom: 40px;
