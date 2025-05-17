@@ -484,11 +484,12 @@ body {
 }
 
 .services{
-  display: grid;
-  grid-template-columns:auto auto auto auto;
-  gap: 50px;
-  margin: 40px;
-  padding: 0px 50px;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+
+  margin: 40px auto;
+  padding: 0px 0px;
 }
 .services button{
   background-color: #E56717;
@@ -512,7 +513,8 @@ body {
   align-content: center
 }
 
-.inner-catering-services{
+.inner-catering-services h1{
+  text-align: center;
 
 }
 
