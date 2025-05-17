@@ -133,6 +133,9 @@ body {
     color: #E56717;
 
   }
+  .about{
+    margin: 0 160px;
+  }
 
 
    /* About Content Ends */
@@ -152,6 +155,9 @@ body {
      color: #E56717;
      font-weight: bold;
       
+   }
+   .menu{
+    margin: 0 160px;
    }
 
    .res-menu{
