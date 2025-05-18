@@ -710,7 +710,7 @@ justify-content: center;
 .contact-form{
   display: grid;
   grid-template-columns: auto auto;
-  justify-items:center ;
+  justify-items:center;
   margin: 20px 80px;
 }
 
