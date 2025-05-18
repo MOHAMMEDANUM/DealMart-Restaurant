@@ -414,8 +414,8 @@ body {
   display: grid;
   grid-template-columns:auto auto auto auto auto auto;
   gap: 0px;
-  margin: 40px;
-  padding: 0px 50px;
+  margin: 40px 80px 40px 200px;
+  
 }
 .dishes button{
   background-color: #E56717;
@@ -436,6 +436,7 @@ body {
 
 .inside-dishes{
   width: 30%;
+  
   display: grid;
   grid-template-columns: auto auto;
   background-color: whitesmoke;
@@ -451,6 +452,7 @@ body {
 }
 .dishes-items{
   padding: 10px;
+
 }
 
 .dishes-items-1{
