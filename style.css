@@ -33,7 +33,7 @@ body {
   
 }
 .nav a button {
-  background-color: #E56717;
+  background-color: #8B0000;
   color: white;
   border: none;
   border-radius: 7px;
@@ -44,8 +44,8 @@ body {
 }
 .nav a button:hover {
   background-color: white;
-  color:#E56717;
-  border: 1px solid #E56717;
+  color:#8B0000;
+  border: 1px solid #8B0000;
 }
 .nav a {
   text-decoration: none;
@@ -54,7 +54,7 @@ body {
   
 }
 .nav a:hover {
-  color: #E56717;
+  color: #8B0000;
 }
 
 
@@ -90,27 +90,28 @@ body {
 .nav2 a{
   text-decoration: none;
   color: #fff;
-  
-  background-color: #E56717;
+  background-color: #8B0000;
   border-radius: 50px;
 }
 .nav2 a:hover{
-  color: #E56717;
+  color: #8B0000;
     background-color: white;
-    border: 1px solid #E56717;
     
   }
   .nav2 a button{
     color: #fff;
-    background-color: #E56717;
+    background-color: #8B0000;
     border: none;
     padding: 10px 20px;
     border-radius: 50px;
   }
   .nav2 a button:hover{
-    color: #E56717;
+    color: #8B0000;
     background-color: white;
     border-radius: 50px;
+    border: 2px solid #8B0000;
+
+
   }
   
   
@@ -130,7 +131,7 @@ body {
   
   #about {
     font-size: 20px;
-    color: #E56717;
+    color: #8B0000;
 
   }
   .about{
@@ -152,7 +153,7 @@ body {
    
    #menu {
      font-size: 20px;
-     color: #E56717;
+     color: #8B0000;
      font-weight: bold;
       
    }
@@ -258,7 +259,7 @@ body {
  #top button {
     color: white;
     margin: 20px 0 0 20px;
-    background-color: #E56717;
+    background-color: #8B0000;
     border: none;
     border-radius: 17px;
     padding: 10px 20px;
@@ -268,10 +269,10 @@ body {
   
   #top button:hover {
     
-    color: #E56717;
+    color: #8B0000;
     background-color: #fff;
     margin: 20px;
-    border: 1px solid #E56717;
+    border: 1px solid #8B0000;
     border-radius: 17px;
     padding: 10px 20px;
   }
@@ -315,7 +316,7 @@ body {
   
   
   #heading1 {
-    color: #E56717;
+    color: #8B0000;
     font-size: 30px;
     
   }
@@ -336,40 +337,47 @@ body {
   /* -------------------------------------------------Reservation Page Starts-------------------------------------------------------- */
 
   .reservation-section2{
-    /* display: flex;  
-    justify-content: center;
-    align-items: center; */
-
     display: grid;
-    background-color: #fff8dc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     width: 100%;
-    padding: 0px 20px;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
     
-    
-
   }
-  .reservaiton-form-outer{
-    /* display: grid;
-    background-color: #fff8dc;
+  .reservation-section2 h1{
+    text-align: center;
+    margin: 20px 0 0 0;
+  }
+
+  .resvation-form-outer-section{
+    background-color: #fff;
+    border: #8B0000 3px solid;
+    padding: 40px 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    width: 100%;
-    padding: 0px 20px; */
-    
+    border-radius: 20px;
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
   }
 
  .reservaiton-form{
   display: grid;
   grid-template-columns:auto auto;
-  margin: 40px 0px 0 0;
+  margin: 10px 0px 0 0;
   padding: 20px 0;
   row-gap: 20px;
   width: 100%;
+  gap: 50px;
+  
  }
   .reservaiton-form-outer button{
-  background-color: #E56717;
+  background-color: #8B0000;
   color: white;
   border: none;
   border-radius: 7px;
@@ -382,8 +390,20 @@ body {
   } 
   .reservaiton-form button:hover {
     background-color: white;
-    color:#E56717;
-    border: 1px solid #E56717;
+    color:#8B0000;
+    border: 1px solid #8B0000;
+  }
+
+  .reservaiton-form input, .reservaiton-form select{
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  .reservaiton-form input:focus, .reservaiton-form select:focus {
+    border-color: #8B0000;
+    outline: none;
   }
 
 
@@ -418,7 +438,7 @@ body {
   
 }
 .dishes button{
-  background-color: #E56717;
+  background-color: #8B0000;
   color: white;
   border: none;
   border-radius: 7px;
@@ -429,8 +449,8 @@ body {
 }
 .dishes button:hover {
   background-color: white;
-  color:#E56717;
-  border: 1px solid #E56717;
+  color:#8B0000;
+  border: 1px solid #8B0000;
 }
 
 
@@ -494,7 +514,7 @@ body {
   padding: 0px 0px;
 }
 .services button{
-  background-color: #E56717;
+  background-color: #8B0000;
   color: white;
   border: none;
   border-radius: 7px;
@@ -505,8 +525,8 @@ body {
 }
 .services button:hover {
   background-color: white;
-  color:#E56717;
-  border: 1px solid #E56717;
+  color:#8B0000;
+  border: 1px solid #8B0000;
 }
 
 .catering-services{
@@ -567,7 +587,7 @@ body {
   
 }
 .gallery button{
-  background-color: #E56717;
+  background-color: #8B0000;
   color: white;
   border: none;
   border-radius: 50px;
@@ -578,8 +598,8 @@ body {
 }
 .gallery button:hover {
   background-color: white;
-  color:#E56717;
-  border: 1px solid #E56717;
+  color:#8B0000;
+  border: 1px solid #8B0000;
 }
 
 .event-images{
@@ -667,7 +687,7 @@ justify-content: center;
 
 .book button{
   margin: 20px;
-  background-color: #E56717;
+  background-color: #8B0000;
   color: white;
   border: none;
   border-radius: 50px;
@@ -679,8 +699,8 @@ justify-content: center;
 .book button:hover {
   margin: 20px;
   background-color: white;
-  color:#E56717;
-  border: 1px solid #E56717;
+  color:#8B0000;
+  border: 1px solid #8B0000;
 }
 
 .event-plan{
