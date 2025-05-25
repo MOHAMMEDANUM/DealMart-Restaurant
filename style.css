@@ -748,7 +748,12 @@ justify-content: center;
   display: grid;
   margin: 0;
   height: 45%;
-  width: 70%;
+  width: 40%;
+  border: #8B0000 3px solid;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  
 }
 
 .contact-details-1 div{
@@ -760,15 +765,53 @@ justify-content: center;
   gap: 20px;
   
 }
+.contact-details-1 form input,
+.contact-details-1 form textarea,.contact-details-1 form select{
+  width: 100%;
+  padding: 0px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 10px;
+}
+.contact-details-1 form input:focus,.contact-details-1 form textarea:focus,.contact-details-1 form select:focus{
+  border-color: #8B0000;
+  border: #8B0000 2px solid;
+  outline: none;
+}
+.contact-details-1 form textarea{
+  padding-top: 5px;
+}
+
+.contact-details-1 form .book{
+  display: inline;
+  background-color: #8B0000;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-details-1 form .book:hover {
+  background-color: white;
+  color:#8B0000;
+  border: 2px solid #8B0000;
+}
+
+
 
 
 
 .contact-details-2{
   display: grid;
-}
-
-.inner--contact-details-2{
-  /* padding: 0 0 0 20px; */
+  border: #8B0000 3px solid;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
 }
 
 .dept{
