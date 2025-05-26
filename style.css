@@ -870,8 +870,8 @@ justify-content: center;
 }
 
 .team-member{
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 500px;
   background-color: whitesmoke;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -888,6 +888,8 @@ justify-content: center;
 .team-member p{
   text-align: center;
   margin: 10px 0;
+  font-size: 17px;
+  padding: 0 20px;
 }
 .team-member a{
   text-decoration: none;
