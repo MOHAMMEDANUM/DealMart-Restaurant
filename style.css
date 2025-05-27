@@ -840,6 +840,13 @@ justify-content: center;
   
 }
 
+#social-media-icons{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
 
 
 /* -------------------------------------------------Contact Page Ends-------------------------------------------------------- */
