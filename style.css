@@ -402,8 +402,11 @@ body {
     font-size: 16px;
   }
   .reservaiton-form input:focus, .reservaiton-form select:focus {
-    border-color: #8B0000;
+
+    border: #8B0000 2px solid;
     outline: none;
+    
+
   }
 
 
