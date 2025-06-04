@@ -9,9 +9,15 @@ body {
   
 }
 
+/* Nav Content Starts */
+
+
+/* Nav Content ends */
+
+
  /* Header Content Starts */
 
- .navigation{
+ /* .navigation{
   background-color: rgb(17, 24, 39);
   margin: 0px;
   padding: 40px 0;
@@ -55,7 +61,7 @@ body {
 }
 .nav a:hover {
   color: #8B0000;
-}
+} */
 
 
 /* Header Content Ends */
