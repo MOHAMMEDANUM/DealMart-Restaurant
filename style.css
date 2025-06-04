@@ -16,6 +16,7 @@ body {
             color: black;
             margin-left: auto;
             padding-right: 40px;
+            position: fixed;
         }
         .nav{
             display: flex;
