@@ -165,13 +165,14 @@ body {
     border: none;
     padding: 10px 20px;
     border-radius: 50px;
+    cursor: pointer;
   }
   .nav2 a button:hover{
     color: #8B0000;
     background-color: white;
     border-radius: 50px;
+    padding: 9px 19px;
     border: 2px solid #8B0000;
-
 
   }
   
@@ -355,6 +356,8 @@ body {
     border: 2px solid #8B0000;
     border-radius: 17px;
     padding: 10px 20px;
+    cursor: pointer;
+
   }
 
   /* Footer Content Ends */
@@ -549,7 +552,8 @@ body {
 .dishes button:hover {
   background-color: white;
   color:#8B0000;
-  border: 1px solid #8B0000;
+  padding: 8px 18px;
+  border: 2px solid #8B0000;
 }
 
 
